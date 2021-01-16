@@ -7,13 +7,17 @@ recognition.onstart = function(){
     console.log('Voice is activated, you can talk to the microphone')
 };
 recognition.onresult = function(event){
-    console.log(event);
+    let transcript = event.results[0][0].transcript;
+    document.getElementById('out').innerHTML = "Speech: " + transcript;
+    alert(event);
 }
 async function onit(){
     document.getElementById('on').innerText = "Voice Recognition: On";
     recognition.start();
+    
 
 }
+
 
 
     /* JS comes here */

@@ -17,14 +17,14 @@ async function onit(){
 */
 
 	/* JS comes here */
-    function onit() {
+    async function onit() {
         // get output div reference
-        var output = document.getElementById("out");
+        let output = document.getElementById("out");
         // get action element reference
-        var action = document.getElementById("on");
+        let action = document.getElementById("on");
         // new speech recognition object
-        var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
-        var recognition = new SpeechRecognition();
+        let  SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+        let recognition = new SpeechRecognition();
     
         // This runs when the speech recognition service starts
         recognition.onstart = function() {

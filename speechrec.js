@@ -1,5 +1,5 @@
 
-/*const content = document.getElementById('out');
+const content = document.getElementById('out');
 const btn = document.getElementById('btn');
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
@@ -14,21 +14,22 @@ async function onit(){
     recognition.start();
 
 }
-*/
 
-	/* JS comes here */
-    async function onit() {
+
+    /* JS comes here */
+    /*
+    function onit() {
         // get output div reference
-        let output = document.getElementById("out");
+        var output = document.getElementById("out");
         // get action element reference
-        let action = document.getElementById("on");
+        var action = document.getElementById("on");
         // new speech recognition object
-        let  SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
-        let recognition = new SpeechRecognition();
+        var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
+        var recognition = new SpeechRecognition();
     
         // This runs when the speech recognition service starts
         recognition.onstart = function() {
-            action.innerHTML = "Voice Recognition: On";
+            action.innerHTML = "Voice Recognition: ON";
         };
         
         recognition.onspeechend = function() {
@@ -47,3 +48,4 @@ async function onit(){
          // start recognition
          recognition.start();
     }
+*/

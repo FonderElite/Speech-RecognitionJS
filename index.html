@@ -1,0 +1,184 @@
+<html>
+    <head>
+    <title>
+Speech Recognition JS
+    </title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="speechrec.js"></script>
+    <style>
+        body{
+            background-color: rgb(29, 28, 28);
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            font-family: 'orbitron';
+            color: white;
+        }
+        @media(min-width: 800px){
+            #container{
+                background-color: rgb(19, 18, 18);
+                width: 50%;
+                height: 60%;
+                position: absolute;
+                left: 25%;
+                top: 10%;
+                border: 1px solid white;
+            }
+            #cool{
+                background-color: rgb(151, 10, 10);
+                padding: 15px 50px;
+                position: absolute;
+                left: 40%;
+                top: 80%;
+                border: none;
+                box-shadow: 0px 4px 10px 1px black;
+            }
+#h1{
+    font-family: 'orbitron';
+    text-align: center;
+}
+#ai{
+    position: absolute;
+    width: 25%;
+    height: 40%;
+}
+
+#output{
+            background-color: rgb(37, 36, 36);
+            width: 60%;
+            height:50%;
+            position: absolute;
+            top: 65%;
+            left: 15%;
+            margin: 5%;
+            border: 1px solid white;
+        }
+        #sound{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 20%;
+            height: 35%;
+
+        }
+        #svg{
+            position: absolute;
+            width: 20%;
+            height: 30%;
+            top: 68%;
+        }
+        #out{
+            position: absolute;
+            left: 20%;
+            top: 5%;
+        }
+        footer{
+            position: absolute;
+            background-color: black;
+            top: 128%;
+            left: 24%;
+            font-size: 5vh;
+            letter-spacing: 5px;
+        }
+        #on{
+            position: absolute;
+            left: 4%;
+            top: 30%;
+            font-size: 3vh;
+         
+        }
+        }
+        @media(max-width: 768px){
+            #container{
+                background-color: rgb(19, 18, 18);
+                width: 65%;
+                height: 50%;
+                position: absolute;
+                left: 20%;
+                top: 10%;
+                border: 1px solid white;
+            }
+            #cool{
+                position: absolute;
+                background-color: rgb(151, 10, 10);
+                padding: 10px 25px;
+                position: absolute;
+                left: 34%;
+                top: 80%;
+                border: none;
+                box-shadow: 0px 4px 10px 1px black;
+            }
+            #h1{
+            font-size: 5vh;
+            text-align: center;
+        }
+        #out{
+        position: absolute;
+        left: 30%;
+        }
+        #output{
+            background-color: rgb(37, 36, 36);
+            width: 90%;
+            height:40%;
+            position: absolute;
+            top: 65%;
+            left: 0%;
+            margin: 5%;
+            border: 1px solid white;
+        }
+        #sound{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 20%;
+            height: 30%;
+
+        }
+        #svg{
+            position: absolute;
+            width: 25%;
+            height: 30%;
+            top: 68%;
+        }
+        #ai{
+            width: 25%;
+            height: 20%;
+            position: absolute;
+        }
+        footer{
+            position: absolute;
+            background-color: black;
+            top: 113%;
+            left: 10%;
+        }
+        #on{
+            position: absolute;
+            left: 24%;
+            top: 1%;
+            font-size: 3vh;
+        }
+        }
+        
+        
+    </style>
+    </head>
+    <body>
+        <img id="ai" src="https://i.pinimg.com/originals/ac/41/fe/ac41fe6cf482dcca2a1c1331559e961b.png">
+        <h2 id="on"></h2>
+        <div id="container">
+            <h1 id="h1">Speech Recognition</h1>
+            <img id="svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Audio-input-microphone.svg/1200px-Audio-input-microphone.svg.png">
+            <button id="cool" onclick="onit()">Talk</button>
+        </div>
+        <div id="output">
+        <img id="sound" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/sound-wave-2938390-2432751.png">
+        <h2 id="out"></h2>
+        </div>
+<footer> Copyright © 2021 FonderElite</footer>
+<script>
+
+</script>
+    </body>
+</html>

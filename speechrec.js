@@ -15,7 +15,6 @@ async function onit(){
     document.getElementById('on').innerText = "Voice Recognition: On";
     recognition.start();
     
-
 }
 
 

@@ -10,7 +10,7 @@
 * Changes speech to  text
 * Coming Soon(Replies Back)
 
-![mic!](https://webstockreview.net/images/microphone-vector-png-3.png")
+![mic!](https://webstockreview.net/images/microphone-vector-png-3.png)
 
 #  🏆Advantages
 * Fast 
@@ -20,9 +20,10 @@
 #  🦾Base
 * Based off of A.I. techs
 
-# Features to be added:
+# 🧑‍🔧 Features to be added:
 - Reply to certain words
 - Image Recognition(50% probability)
 
 🤳 Socials
-* Github https://github.com/FonderElite
+* Github: https://github.com/FonderElite
+* Twitter: https://twitter.com/elitefonder

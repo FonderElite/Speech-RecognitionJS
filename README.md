@@ -1,5 +1,5 @@
 # 🧑‍🎤Speech-RecognitionJS
-** Turns on microphone and changes your speech to text.
+***Turns on microphone and changes your speech to text***.
 
 # 🧩Technologies
 * Visual Studio Code
@@ -9,7 +9,9 @@
 # 🎤Features
 * Changes speech to  text
 * Coming Soon(Replies Back)
+
 ![mic!](https://webstockreview.net/images/microphone-vector-png-3.png")
+
 #  🏆Advantages
 * Fast 
 * Free
